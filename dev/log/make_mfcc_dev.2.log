@@ -1,0 +1,59 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:dev/log/wav_dev.2.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/tsilipc/kaldi/egs/usc/data/dev/data/raw_mfcc_dev.2.ark,/home/tsilipc/kaldi/egs/usc/data/dev/data/raw_mfcc_dev.2.scp 
+# Started at Mon Dec 30 22:50:58 EET 2019
+#
+copy-feats --compress=true ark:- ark,scp:/home/tsilipc/kaldi/egs/usc/data/dev/data/raw_mfcc_dev.2.ark,/home/tsilipc/kaldi/egs/usc/data/dev/data/raw_mfcc_dev.2.scp 
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:dev/log/wav_dev.2.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f1_368
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f1_382
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f1_394
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f1_397
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f1_402
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f1_405
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f1_451
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f1_453
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f1_456
+LOG (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:172) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f1_460
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_009
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_011
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_017
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_019
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_066
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_080
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_081
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_090
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_143
+LOG (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:172) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_144
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_162
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_163
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_164
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_174
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_197
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_208
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_233
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_243
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_244
+LOG (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:172) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_272
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_281
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_304
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_307
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_329
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_330
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_334
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_336
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_343
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_348
+LOG (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:172) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_349
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_354
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_356
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_369
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_375
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_389
+VLOG[2] (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:173) Processed features for key f5_392
+LOG (compute-mfcc-feats[5.3.19~1-a3441]:main():compute-mfcc-feats.cc:176)  Done 46 out of 46 utterances.
+LOG (copy-feats[5.3.19~1-a3441]:main():copy-feats.cc:143) Copied 46 feature matrices.
+# Accounting: time=11 threads=1
+# Ended (code 0) at Mon Dec 30 22:51:09 EET 2019, elapsed time 11 seconds
